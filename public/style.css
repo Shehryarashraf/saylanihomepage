@@ -1,0 +1,648 @@
+    .body {
+        margin: 0px;
+    }
+    
+    body {
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container {
+        background-color: rgb(39, 109, 189);
+        padding: 7px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        max-width: 1500px;
+    }
+    
+    .logos {
+        width: 2%;
+        padding: 8px 2px;
+        margin: 0px 7px;
+    }
+    
+    .wap {
+        width: 1%;
+        margin: 0px 10px;
+    }
+    
+    .img {
+        margin-right: 282px;
+        width: 16%;
+        height: 3.2rem;
+    }
+    
+    .txt {
+        text-align: center;
+    }
+    
+    #Uk {
+        margin-left: 79px;
+    }
+    
+    #smit {
+        margin-right: 7px;
+    }
+    
+    .btn {
+        background-color: white;
+        padding: 3px;
+        font-size: 14px;
+        border-radius: 0px;
+    }
+    
+    .navbar {
+        overflow: hidden;
+        background-color: white;
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .home {
+        background-color: rgb(39, 109, 189);
+        border-radius: 21px;
+    }
+    
+    .navbar a {
+        float: left;
+        font-size: 14px;
+        color: black;
+        text-align: center;
+        padding: 5px 20px;
+        text-decoration: none;
+    }
+    
+    .dropdown .dropbtn {
+        font-size: 14px;
+        border: none;
+        outline: none;
+        color: black;
+        padding: 5px 20px;
+        background-color: inherit;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: rgb(39, 109, 189);
+        border-radius: 21px;
+        color: white;
+    }
+    
+    .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .home {
+        background-color: rgb(39, 109, 189);
+        border-radius: 21px;
+        color: pink;
+    }
+    
+    .intro {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #div {
+        margin-bottom: 27px;
+    }
+    
+    .parallax {
+        background-color: rgba(36, 79, 242, 0.8);
+        height: 200px;
+        margin: 0 auto;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: repeat-y;
+        background-position: top center;
+    }
+    
+    .divider {
+        box-sizing: border-box;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    
+    .overlay-theme-colored-8:before {
+        background-color: rgba(36, 79, 242, 0.8) !important;
+    }
+    
+    .layer-overlay::before {
+        background: rgba(17, 17, 17, 0.5) none repeat scroll 0 0;
+        content: " ";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    
+    .funfact {
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .des {
+        margin: 0px 158px;
+        margin-top: 44px;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .cards {
+        margin-top: 49px;
+        margin: 51px 140px;
+    }
+    
+    .icons {
+        margin-left: 132px;
+    }
+    
+    .card-title {
+        text-align: center;
+        color: rgb(39, 109, 189);
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .card {
+        padding-top: 30px;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    }
+    
+    .mission {
+        color: rgb(39, 109, 189);
+        font-weight: bold;
+        margin-left: 140px;
+    }
+    
+    .proj {
+        width: 54%;
+        padding: 17px 15px;
+        margin-left: 124px;
+    }
+    
+    .upcoming {
+        border: 1px solid rgb(221, 221, 221);
+        height: 75px;
+        background-color: rgb(248, 248, 248);
+        margin: -5px -1px;
+    }
+    
+    .projects {
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+    
+    .head {
+        color: rgb(39, 109, 189);
+        margin-left: 34px;
+        text-align: center;
+        margin-top: -44px;
+        font-family: 'Merriweather', serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    #hep {
+        margin-left: -94px;
+    }
+    
+    #hs {
+        margin-left: -5px;
+    }
+    
+    #il {
+        margin-left: -70px;
+    }
+    
+    #thar {
+        margin-left: -49px;
+    }
+    
+    .full-width {
+        width: 16%;
+    }
+    
+    .images {
+        padding: 23px;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    
+    .card-group {
+        color: #666666;
+    }
+    
+    .boxShadow {
+        background-color: rgb(37, 39, 46);
+        border: 0px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    
+    .footer {
+        background-color: rgb(39, 109, 189);
+        color: white;
+        padding: 6px 12px;
+    }
+    
+    .cntlogos {
+        width: 7%;
+        margin: 1px -18px;
+        margin-left: 27px;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    .useful {
+        color: green;
+        margin-left: -32px;
+        margin-top: -17px;
+        text-align: center;
+    }
+    
+    .useful1 {
+        color: grey;
+    }
+    
+    .ul {
+        color: white;
+    }
+    
+    .fb1 {
+        width: 7%;
+        margin-right: -18px;
+    }
+    
+    .widget {
+        color: #bbb;
+        width: 294%;
+        margin: 46px;
+    }
+    
+    .cwu {
+        color: white;
+    }
+    
+    .month {
+        color: #00FF00;
+        font-size: 1.7rem;
+    }
+    
+    @media (max-width: 1293px) {
+        .navbar {
+            display: flex;
+            flex-direction: column;
+        }
+        .logos {
+            width: 4%;
+        }
+        .wap {
+            width: 2%;
+        }
+        .txt {
+            font-size: 25px;
+        }
+        .btn {
+            padding: 8px 6px;
+            font-size: 21px;
+        }
+        .img {
+            margin-left: 268px;
+            margin-bottom: 25px;
+        }
+        .boxShadow {
+            background-color: rgb(37, 39, 46);
+            border: 0px;
+            box-shadow: 0px 0px 0px 0px;
+        }
+        .des {
+            font-size: 1.2rem;
+        }
+        .icons {
+            margin-left: 123px;
+        }
+        #hep {
+            margin-left: -43px;
+        }
+        #hs {
+            margin-left: 24px;
+        }
+        #il {
+            margin-left: -22px;
+        }
+        #thar {
+            margin-left: -13px;
+        }
+        .useful {
+            margin-left: 12px;
+        }
+        .fb1 {
+            margin-left: 24px;
+        }
+    }
+    
+    @media(max-width: 1285px) {
+        .fb1 {
+            margin-left: 3px;
+        }
+        .useful {
+            margin-left: -13px;
+        }
+    }
+    
+    @media (max-width: 1274px) {
+        .icons {
+            margin-left: 119px;
+        }
+        #hep {
+            margin-left: -23px;
+        }
+        #hs {
+            margin-left: 44px;
+        }
+        #il {
+            margin-left: 1px;
+        }
+        #thar {
+            margin-left: 8px;
+        }
+        .useful {
+            margin-left: -25px;
+        }
+        .cntlogos {
+            margin-left: 21px;
+        }
+    }
+    
+    @media (max-width: 1247px) {
+        .useful {
+            margin-left: -10px;
+        }
+    }
+    
+    @media (max-width: 1220px) {
+        .fb1 {
+            margin-left: 12px;
+            width: 7%;
+        }
+    }
+    
+    @media (max-width: 1204px) {
+        .icons {
+            margin-left: 108px;
+        }
+        .fb1 {
+            width: 7%;
+        }
+    }
+    
+    @media (max-width: 1175px) {
+        .fb1 {
+            margin-left: 6px;
+        }
+        .useful {
+            margin-right: 84px;
+        }
+    }
+    
+    @media (max-width: 1129px) {
+        .icons {
+            margin-left: 95px;
+        }
+    }
+    
+    @media(max-width: 1038px) {
+        .contacts {
+            width: 298%;
+        }
+    }
+    
+    @media(max-width: 1034px) {
+        .contacts {
+            width: 299%;
+        }
+    }
+    
+    @media (max-width: 1050px) {
+        .icons {
+            margin-left: 83px;
+        }
+    }
+    
+    @media (max-width: 1045px) {
+        .widget {
+            width: 295%;
+        }
+    }
+    
+    @media (max-width: 1041px) {
+        .widget {
+            width: 297%;
+        }
+    }
+    
+    @media (max-width: 1037px) {
+        .widget {
+            width: 333%;
+        }
+    }
+    
+    @media (max-width: 993px) {
+        .icons {
+            margin-left: 73px;
+        }
+        #hep {
+            margin-left: 8px;
+        }
+        #hs {
+            margin-left: 38px;
+        }
+        #il {
+            margin-left: 33px;
+        }
+        #thar {
+            margin-left: 45px;
+        }
+    }
+    
+    @media(max-width: 952px) {
+        .widget {
+            font-size: 13px;
+        }
+    }
+    
+    @media (max-width: 948px) {
+        .icons {
+            margin-left: 66px;
+        }
+    }
+    
+    @media(max-width: 939px) {
+        .card-group {
+            font-size: 12px;
+        }
+        .widget {
+            font-size: 13px;
+        }
+        .useful {
+            margin-left: 15px;
+        }
+        .ul {
+            margin-left: 20px;
+        }
+    }
+    
+    @media (max-width: 926px) {
+        .card {
+            width: 218px;
+        }
+        .cards {
+            margin: 51px 90px;
+        }
+    }
+    
+    @media (max-width: 886px) {
+        .icons {
+            margin-left: 52px;
+        }
+        .widget {
+            font-size: 11px;
+        }
+    }
+    
+    @media(max-width: 883px) {
+        .icons {
+            margin-left: 69px;
+        }
+    }
+    
+    @media (max-width: 812px) {
+        .cards {
+            margin: 51px 59px;
+        }
+        .proj {
+            width: 59%;
+            margin-left: 124px;
+        }
+    }
+    
+    @media (max-width: 766px) {
+        .parallax {
+            height: 349px;
+        }
+        .cols {
+            margin-left: 200px;
+        }
+        .widget {
+            font-size: 9px;
+            width: 219%;
+        }
+    }
+    
+    @media (max-width: 708px) {
+        .cols {
+            margin-left: 170px;
+        }
+    }
+    
+    @media (max-width: 674px) {
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+    }
+    
+    @media (max-width: 678px) {
+        .card-group {
+            display: flex;
+            flex-direction: column;
+        }
+        .boxShadow {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 660px) {
+        .cols {
+            margin-left: 151px;
+        }
+        .boxShadow {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 660px) {
+        .widget {
+            font-size: 9px;
+            width: 219%;
+        }
+        .cols {
+            margin-left: 144px;
+        }
+    }
+    
+    @media (max-width: 629px) {
+        .widget {
+            font-size: 9px;
+            width: 272%;
+        }
+        .cols {
+            margin-left: 134px;
+        }
+    }
+    
+    @media (max-width: 581px) {
+        .widget {
+            font-size: 9px;
+            width: 272%;
+        }
+        .cols {
+            margin-left: 128px;
+        }
+    }
+    
+    @media(max-width: 572px) {
+        .parallax {
+            height: 665px;
+        }
+        .boxShadow {
+            width: 100%;
+            margin-bottom: -30px;
+        }
+    }
